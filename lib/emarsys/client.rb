@@ -29,7 +29,7 @@ module Emarsys
     end
 
     def header_created
-      Time.new
+      Time.new.to_s
     end
 
     def calculated_digest
