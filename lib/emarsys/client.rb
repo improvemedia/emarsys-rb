@@ -29,7 +29,7 @@ module Emarsys
     end
 
     def header_created
-      Time.new.strftime("%Y-%m-%d %H:%M:%S")
+      Time.new
     end
 
     def calculated_digest
